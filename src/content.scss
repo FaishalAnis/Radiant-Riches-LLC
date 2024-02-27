@@ -1,0 +1,258 @@
+.containe {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: white;
+  display: flex;
+  padding: 0 10px;
+  position: relative;
+}
+
+.best-choices {
+  position: absolute;
+  left: 0;
+  top: -10px;
+  background-color: tomato;
+  color: white;
+  padding: 10px 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 180px;
+}
+
+.mid-content {
+  width: 100%;
+  font-size: 1.5rem; /* Adjust font size for better readability on mobile */
+}
+
+.text {
+  font-size: 1.5rem; /* Adjust font size for better readability on mobile */
+}
+
+.off {
+  font-size: 1rem;
+  background-color: #F2F4F7;
+  margin-bottom: 20px;
+  padding: 3px;
+  border-radius: 5px;
+  color: #074786;
+}
+
+.main-highlight-text {
+  padding-left: 10px; /* Adjust padding for better alignment on mobile */
+}
+
+.main-highlight-text-text {
+  padding: 10px;
+  align-items: center;
+  display: inline-block;
+  width: 100%;
+  max-width: 650px;
+  background-color: #FFF4ED;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.lines {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.num {
+  width: 50px;
+  text-align: center;
+  height: 30px;
+  padding: 2px;
+  margin-left: 10px;
+  margin-right: 20px;
+  background-color: white;
+  color: #1b88f4;
+  border: none;
+  border-radius: 10px;
+}
+
+.h3 {
+  color: #4B5665;
+  width: 100%;
+  max-width: 500px;
+  height: 24px;
+  margin-top: 10px;
+  font-size: 1.25rem;
+  font-weight: 200;
+}
+
+.main-highlight-text-texts {
+  align-items: center;
+  display: inline-block;
+  width: 100%;
+  max-width: 650px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+
+.liness {
+  color: #4B5665;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-weight: 200;
+}
+
+.nums {
+  color: #0855A1;
+  font-size: x-large;
+  border-radius: 110px;
+}
+
+.h4 {
+  margin-left: 10px;
+  margin-top: 0;
+  font-weight: 200;
+  font-size: 1.25rem;
+}
+
+.main-highlight-titles {
+  font-weight: 200;
+}
+
+.show-more {
+  margin-top: 20px;
+  padding-top: 10px;
+  color: blue;
+}
+
+.right {
+  width: 150px; /* Take up full width on mobile */
+  margin-top: 20px; /* Adjust margin for better spacing on mobile */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mid-content p {
+  margin-top: 10px;
+}
+
+.rating-container {
+  background-color: #f3f9ff;
+  color: #074786;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width:100%;
+  margin: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.other-rating-comp {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.stars {
+  font-size: 12px;
+}
+
+.rating {
+  font-size: 40px;
+}
+
+.cta {
+  background-color: #1b88f4;
+  color: white;
+  font-size: 1.2rem;
+  width: 80%;
+  max-width: 300px; /* Adjust max-width for better spacing on mobile */
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.best {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  background-color: rgb(247, 244, 244);
+  color: #626E79;
+  padding: 10px 20px;
+  border-radius: 120px;
+}
+
+.ctag {
+  background-color: #1b88f4;
+  color: white;
+  font-size: 1.2rem;
+  width: 80%;
+  max-width: 300px; /* Adjust max-width for better spacing on mobile */
+  margin-top: 20px; /* Adjust margin for better spacing on mobile */
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+@media (min-width:300px) and (max-width:1200px) {
+  .best{
+    display: flex;
+  }
+
+  .containe{
+    flex-direction: column;
+    gap: 1rem;
+    // justify-content: center;
+    align-items: center;
+    // margin-top: 20px;
+    height: auto;
+  }
+
+   .right {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+  }
+
+
+  .main-highlight-text-text{
+    width: 90%;
+    padding: 0;
+    margin: 0 4%;
+  }
+  .ctag {
+    background-color: #1b88f4;
+    color: white;
+    font-size: 1.2rem;
+    width: 50%;
+    margin: 0;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom:20px;
+  }
+}

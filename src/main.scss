@@ -1,0 +1,87 @@
+.main {
+    justify-content: left;
+    text-align: left;
+    width: 100%;
+}
+
+.main h1 {
+    font-family: Inter;
+    font-weight: 400;
+    font-size:  44px;
+    color: #2C384A;
+    height: 60px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+     /* Adjust margin for better alignment on mobile */
+ /* Adjust padding for better alignment on mobile */
+}
+
+.box1,
+.box2,
+.box3 {
+    text-align: left;
+    margin-left: 1px; /* Adjust margin for better alignment on mobile */
+}
+
+.box1 ul,
+.box2 ul,
+.box3 ul {
+    padding: 0;
+    margin: 15px 0; /* Adjust margin for better spacing on mobile */
+    list-style: none; /* Remove default list styling */
+    display: inline-block;
+    flex-wrap: wrap; /* Ensure items wrap on smaller screens */
+    justify-content: left; /* Center align for better mobile view */
+}
+
+.box1 ul li,
+.box2 ul li,
+.box3 ul li {
+    margin: 0.5rem; /* Adjust margin for better spacing on mobile */
+    color: #4B5665;
+    display: inline-block;
+}
+
+.thin-grey-line {
+    margin-left: 15%; /* Adjust margin for better alignment on mobile */
+    width: 50%; /* Adjust the width of the line for mobile view */
+    height: 1px;
+    margin-top: 0px;
+    background-color: #0a0909;
+    margin-right: 30%;
+}
+
+/* Media Query for Desktop */
+@media (min-width: 768px) {
+    .main h1 {
+        font-size: 4rem;
+        margin-left: 350px;
+    }
+
+    .box1 ul {
+        margin-left: 350px;
+        margin-inline-end: 180px;
+    }
+
+    .box2 {
+        margin-left: 360px;
+    }
+
+    .box2 ul li {
+        margin-right: 1rem; /* Adjust margin for better spacing on desktop */
+    }
+
+    .box3 {
+        margin-left: 360px;
+    }
+
+    .box3 ul li {
+        margin-right: 0.5rem; /* Adjust margin for better spacing on desktop */
+    }
+
+    .thin-grey-line {
+        width: 60%;
+        margin-left: 18%;
+    }
+}
